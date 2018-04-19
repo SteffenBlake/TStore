@@ -12,4 +12,8 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TStore\TStore.csproj" />
+  </ItemGroup>
+
 </Project>
