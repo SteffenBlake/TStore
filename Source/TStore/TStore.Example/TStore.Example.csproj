@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Steffen Blake</Authors>
+    <Company>Technically Fun</Company>
+    <Description>Example Project using TStore package</Description>
+    <PackageLicenseUrl>https://github.com/SteffenBlake/TStore/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SteffenBlake/TStore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SteffenBlake/TStore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
