@@ -1,5 +1,4 @@
 ﻿using System;
-using TStore.Example.Implementations;
 using TStore.Example.Interfaces;
 using TStore.Extensions;
 
@@ -10,8 +9,7 @@ namespace TStore.Example
         static void Main(string[] args)
         {
             var store = new TStore.Implementations.TStore();
-            store.Register<IConsoleService, ConsoleService>();
-            store.Register<IHelloWorldService, HelloWorldService>();
+            store.RegisterNamespace("TStore.Example.Implementations*");
 
             var consoleService = store.Fetch<IConsoleService>();
 
